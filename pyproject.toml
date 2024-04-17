@@ -1,0 +1,22 @@
+[project]
+name = "cvat"
+description = "CVAT 是一款开源辅助标注软件，可以结合 Featurize 的 GPU 的推理性能来辅助标注"
+authors = [{name= "Chenglu", email = "chenglu.she@gmail.com"}]
+version = "1.0.0"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/louis-she/featurize-cvat"
+Documentation = "https://github.com/louis-she/featurize-cvat/blob/master/README.md"
+Repository = "https://github.com/louis-she/featurize-cvat"
+Changelog = "https://github.com/louis-she/featurize-cvat/blob/master/CHANGELOG.md"
+Issues = "https://github.com/louis-she/featurize-cvat/issues"
+
+[featurize]
+port = "8080"
+op_port = "30009"
+icon = "https://featurize-public.oss-cn-beijing.aliyuncs.com/apps/cvat.png"
+author_github = "https://github.com/louis-she"
+name = "CVAT 标注工具"
+newtab = true
+
